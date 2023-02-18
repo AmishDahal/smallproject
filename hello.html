@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    form {
+      text-align: center;
+    }
+    input {
+      margin: 10px;
+      padding: 5px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    #password {
+      background-color: #333;
+      color: white;
+      border: none;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+<pre><center><h2>
+Hello, I am a young developer and by helping me, you can benefit from my skills.
+Below is a website i created  by a basic HTML form that I created.
+It collects information like name, address, email, gender, and phone number.
+Thank you for considering subscribing to  me.</center></pre></h2> 
+
+  <form onsubmit="checkPassword(event)">
+    <h3>Please enter the password:</h3>
+    <input type="password" id="password" name="password">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+    function checkPassword(event) {
+      event.preventDefault();
+      var password = document.getElementById("password").value;
+      if (password === "myPassword") {
+        window.location.href = "dessktop.html";
+      } else {
+           alert("Incorrect password. Please try again.");
+      }
+    }
+  </script>
+<h2 align = "center" >
+<dl> <dt> hello
+<dd> helo is a greeting  <br>
+<dt> hmm 
+<dd> it is associated with thinking <br>
+<dt> <font size = 5> john jonny  </font>
+<dd><font size = 10 > <mark> lmao </mark> </font>
+ <dt> lol 
+<dd> it is used to express yourself finding something very funny <br>
+</dl>
+</h2>
+<br>
+<h3 align = "center">
+<font size = 4 color = "white" >  A short song of <a href = "https://www.bing.com/search?q=bipul+chettri&cvid=e0b5daf699e84ed595c13b3726d1b8a9&aqs=edge..69i57.3752j0j7&FORM=ANNTA0&PC=EDGEDB" allow ="autoplay;accelerometer;gyroscope;picture-in-picture"> " bipul chettri " </a> </font></h3>
+<h3 align = "center">
+<embed type ="video/webm" src= "bruh.mp4" width=640 height = 368 ><br><br>
+<a href = "bruh.mp4"> click here to see this video in expanded form </a> 
+<br> 
+<br>
+</h3>
+<body link ="red" vlink= "white" alink = "grey">
+<center>
+<a href = "https://youtu.be/dQw4w9WgXcQ"> Youtube.com  </a> 
+</center>
+</body>
+<br><br>
+<h1> <a href = "#top">Goto Top </a> </h1>
+</body>
+<body background = "blue">
+<hr  color= "white">
+<footnote>
+<a href = "about.html">About us <br></a> 
+</footnote>
+</frame>
+</body>
+</html>
